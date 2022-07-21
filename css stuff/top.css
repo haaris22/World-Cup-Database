@@ -1,0 +1,123 @@
+.web-title {
+    margin-top: 70px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Mephisto;
+    color: maroon;
+    margin-bottom: 30px;
+  }
+  .web-desc {
+    font-size: 35px;
+  }
+
+
+.quick-options {
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid maroon;
+}
+
+.left-section {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    flex: 1;
+}
+
+.middle-section {
+  margin-right: 30px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+
+}
+
+.right-section {
+    flex: 1;
+    max-width: 600px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.home-icon, .predict-icon {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: maroon;
+  border-radius: 18px;
+  padding: 10px 15px;
+  font-style: normal;
+  color: white;
+  cursor: pointer;
+  transition: box-shadow: 0.15s;
+  
+}
+
+.predict-icon:hover, .home-icon:hover {
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.16);
+}
+
+
+.searchbox {
+  height: 44px;
+  flex: 1;
+  background-color: black;
+  color: maroon;
+  font-size: 24px;
+  border: 2px solid maroon;
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 5px rgba(255, 255, 255, 0.16);
+  width: 0;
+  }
+
+.searchbox::placeholder {
+  font-size: 24px;
+  color: maroon;
+  padding-left: 10px;
+}
+
+.search-button {
+  background-color: maroon;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  font-family: Mephisto;
+  font-size: 24px;
+  align-items: center;
+  display: flex;
+}
+
+.search-button:hover {
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.15);
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.menu-icon {
+  height: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.menu-icon:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.homepage-logo{
+  height: 50px
+}
+
+.homepage-logo:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.15);
+}
